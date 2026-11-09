@@ -1,0 +1,30 @@
+
+# Gmail credentials and authentication
+credentials.json
+client_secret.json
+token.json
+token.pickle
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python environment
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Databases and private data
+*.db
+*.sqlite
+*.sqlite3
+data/
+uploads/
+
+# IDE and operating system
+.vscode/
+.DS_Store
+Thumbs.db
